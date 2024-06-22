@@ -30,7 +30,7 @@ while running:
     #Дальше идёт обработка событий
     for event in pygame.event.get():
         #Условие выхода из игры - закрытие окна
-        if event.type == pygame.quit: running = False
+        if event.type == pygame.QUIT: running = False
         #Обработка нажатий кнопок мыши
         if event.type == pygame.MOUSEBUTTONDOWN:
             #Считывание координат мыши и сравнение с положением мишени
